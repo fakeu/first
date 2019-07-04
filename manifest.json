@@ -1,0 +1,18 @@
+{
+  "name": "Homepage",
+  "short_name": "Homepage",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "background_color": "white",
+  "scope": "/",
+  "theme_color": "white",
+  "icons": [
+    {
+      "src": "crown-yellow-small.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
