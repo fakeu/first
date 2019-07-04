@@ -26,44 +26,28 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "images/avatar.jpg",
-    "revision": "262186108c0b3583163036ec158df423"
+    "url": "crown-yellow-small.png",
+    "revision": "3a7ee6e43b9b3dd086d6d2a6a3e5d32f"
   },
   {
-    "url": "images/icons/16x16.png",
-    "revision": "b85b0d01ca0b22430da12dbc3a9c2730"
+    "url": "css/main.min.css",
+    "revision": "925d950ef50b713c255dc9b340404d4f"
   },
   {
-    "url": "images/icons/192x192.png",
-    "revision": "3c3061ed797e20bab6927f35c8caa252"
+    "url": "images/crown-yellow.png",
+    "revision": "3a7ee6e43b9b3dd086d6d2a6a3e5d32f"
   },
   {
-    "url": "images/icons/32x32.png",
-    "revision": "50f973a7a335436f4c7b553b92e3f919"
+    "url": "images/noava.png",
+    "revision": "5cd704fc4de15c5463fa3d31480600a4"
   },
   {
-    "url": "images/icons/512x512.png",
-    "revision": "09e49e179fe06121e02f6182850f3255"
-  },
-  {
-    "url": "images/icons/favicon.ico",
-    "revision": "c6d7eafc9f94f76667e911507b97ff0b"
-  },
-  {
-    "url": "images/og_image.jpg",
-    "revision": "863c62a0505779c408b1fc0ee9c22b2a"
+    "url": "images/wesbos.png",
+    "revision": "7f8e6c5c5bc5ef49b6efa97116d582ec"
   },
   {
     "url": "index.html",
-    "revision": "9287e3f9a8eadf7347291c5e7618127e"
-  },
-  {
-    "url": "styles/base.css",
-    "revision": "8da844af205a4ae9bece63ff1c1abb09"
-  },
-  {
-    "url": "styles/style.css",
-    "revision": "8c945e98082cb59119ff56abaf647b2d"
+    "revision": "c0b874f2d8e9bdff612c43a47b3006ac"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
