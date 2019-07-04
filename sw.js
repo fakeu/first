@@ -31,7 +31,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/main.min.css",
-    "revision": "71d091b962bb165cf8647028005a8c20"
+    "revision": "e22953247ba6ba1b3f1467813bae9a07"
   },
   {
     "url": "images/crown-yellow.png",
@@ -47,7 +47,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "a580189395323ed866c6ef2e52cf6688"
+    "revision": "e0562145903d2bce7d5405187b1a493a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
