@@ -11,10 +11,12 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts(
+  "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js"
+);
 
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
+self.addEventListener("message", event => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
     self.skipWaiting();
   }
 });
@@ -26,28 +28,28 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "crown-yellow-small.png",
-    "revision": "3a7ee6e43b9b3dd086d6d2a6a3e5d32f"
+    url: "crown-yellow-small.png",
+    revision: "3a7ee6e43b9b3dd086d6d2a6a3e5d32f"
   },
   {
-    "url": "css/main.min.css",
-    "revision": "925d950ef50b713c255dc9b340404d4f"
+    url: "css/main.min.css",
+    revision: "925d950ef50b713c255dc9b340404d4f"
   },
   {
-    "url": "images/crown-yellow.png",
-    "revision": "3a7ee6e43b9b3dd086d6d2a6a3e5d32f"
+    url: "images/crown-yellow.png",
+    revision: "3a7ee6e43b9b3dd086d6d2a6a3e5d32f"
   },
   {
-    "url": "images/noava.png",
-    "revision": "5cd704fc4de15c5463fa3d31480600a4"
+    url: "images/noava.png",
+    revision: "5cd704fc4de15c5463fa3d31480600a4"
   },
   {
-    "url": "images/wesbos.png",
-    "revision": "fa4051bedaf36eb42f8e5a1660d3b5f1"
+    url: "images/wesbos.png",
+    revision: "fa4051bedaf36eb42f8e5a1660d3b5f1"
   },
   {
-    "url": "index.html",
-    "revision": "4a8c191dc9cc0b4bb12bbc4fae8f92d5"
+    url: "index.html",
+    revision: "4a8c191dc9cc0b4bb12bbc4fae8f92d5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
