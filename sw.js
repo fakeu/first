@@ -31,7 +31,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/main.min.css",
-    "revision": "e22953247ba6ba1b3f1467813bae9a07"
+    "revision": "b74dc5a6b3cf2b81b2aa5abd10e8a606"
   },
   {
     "url": "images/crown-yellow.png",
