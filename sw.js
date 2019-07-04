@@ -43,7 +43,7 @@ self.__precacheManifest = [
   },
   {
     "url": "images/wesbos.png",
-    "revision": "7f8e6c5c5bc5ef49b6efa97116d582ec"
+    "revision": "fa4051bedaf36eb42f8e5a1660d3b5f1"
   },
   {
     "url": "index.html",
